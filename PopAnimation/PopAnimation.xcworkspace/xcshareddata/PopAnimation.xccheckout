@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>24C2504D-876C-43C1-8C7C-AC28A2271C16</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PopAnimation</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FDB6DE3D-EE7B-46F5-831A-B3DF91E3C6DA</key>
+		<string>https://github.com/OMTS/CocoaSugarFree.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PopAnimation/PopAnimation.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FDB6DE3D-EE7B-46F5-831A-B3DF91E3C6DA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/OMTS/CocoaSugarFree.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FDB6DE3D-EE7B-46F5-831A-B3DF91E3C6DA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FDB6DE3D-EE7B-46F5-831A-B3DF91E3C6DA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CocoaSugarFree</string>
+		</dict>
+	</array>
+</dict>
+</plist>

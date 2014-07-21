@@ -1,0 +1,5 @@
+platform :ios, "7.0"
+pod 'pop'
+pod 'Shimmer'
+
+inhibit_all_warnings!
