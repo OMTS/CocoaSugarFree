@@ -92,26 +92,26 @@
     POPSpringAnimation *imageViewBoundsAnimation = [POPSpringAnimation animation];
     POPSpringAnimation *imageViewPositionAnimation = [POPSpringAnimation animation];
 
-    POPSpringAnimation *interactionViewBottomConstraintAnimation = [POPSpringAnimation animation];
+    POPSpringAnimation *interactionViewBottomAnimation = [POPSpringAnimation animation];
 
 
     //Set the animatable properties
     imageViewBoundsAnimation.property = [POPAnimatableProperty propertyWithName:kPOPLayerBounds];
     imageViewPositionAnimation.property = [POPAnimatableProperty propertyWithName:kPOPLayerPositionY];
-    interactionViewBottomConstraintAnimation.property = [POPAnimatableProperty propertyWithName:kPOPLayerPositionY];
+    interactionViewBottomAnimation.property = [POPAnimatableProperty propertyWithName:kPOPLayerPositionY];
 
     
     //set the destination values
     imageViewBoundsAnimation.toValue = [NSValue valueWithCGRect:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
     imageViewPositionAnimation.toValue = @(self.view.center.y);
-    interactionViewBottomConstraintAnimation.toValue = @(self.view.bounds.size.height - self.interactionView.bounds.size.height/2.0);
+    interactionViewBottomAnimation.toValue = @(self.view.bounds.size.height - self.interactionView.bounds.size.height/2.0);
 
 
     //set the animaions configurations values
     imageViewBoundsAnimation.springBounciness = 2;
     imageViewBoundsAnimation.springSpeed = 15;
-    interactionViewBottomConstraintAnimation.springBounciness = 3;
-    interactionViewBottomConstraintAnimation.springSpeed = 12;
+    interactionViewBottomAnimation.springBounciness = 3;
+    interactionViewBottomAnimation.springSpeed = 12;
     imageViewPositionAnimation.springBounciness = 3;
     imageViewPositionAnimation.springSpeed = 12;
 
@@ -119,7 +119,7 @@
     //Finally set the animation
     [self.bgImageView pop_addAnimation:imageViewBoundsAnimation forKey:@"bounds"];
     [self.bgImageView pop_addAnimation:imageViewPositionAnimation forKey:@"position"];
-    [self.interactionView pop_addAnimation:interactionViewBottomConstraintAnimation forKey:@"interactionViewAnimation"];
+    [self.interactionView pop_addAnimation:interactionViewBottomAnimation forKey:@"interactionViewAnimation"];
 }
 
 - (void)animateBackToTheRightTopImageSize {
